@@ -11,3 +11,14 @@ Read through the file **example1.py** for information on using the math module.
 * You will require the use of the round() function from example1.py
 '''
 
+
+f = 62.5
+x = 32
+y = 5/9
+
+a = (f - x)
+
+
+c = round(a * y, 1)
+
+print(c)

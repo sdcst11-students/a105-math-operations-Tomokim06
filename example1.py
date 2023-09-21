@@ -17,13 +17,7 @@ On line 25, we are storing the result into a new variable y.  Usually, it does n
 Experiment with changing the values on lines 20 and 21.  You can add breakpoints on line 23 and 26 and track the values of the variables using the debugger.  Note on line 28 that we can also use numerical values directly as parameters, we don't have to use variables.
 """
 
-x = 1.2222222222
-numDecimals = 1
-x = round(x , numDecimals)
-print(x)
 
-y = round(x)
-print(y)
 
 z = round(3.14159 , 2)
 print(z)
